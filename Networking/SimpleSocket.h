@@ -25,6 +25,8 @@ namespace HDE
          struct sockaddr_in get_address();
          int get_sock();
          int get_connection();
+         // Setter functions
+         void set_connection(int con);
     
     };
     
